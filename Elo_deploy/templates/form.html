@@ -1,0 +1,183 @@
+<body>
+    <h3>Elo Merchant Prediction</h3>
+
+<form action="/predict" method="POST">
+
+
+  <div>
+    <label>Feature_2</label>
+    <input
+      type="text"
+      id="feature_2"
+      name="feature_2"
+      placeholder="Enter Feature_2"
+    />
+  </div>
+  <br />
+  <div>
+    <label>Feature_3</label>
+    <input
+      type="text"
+      id="feature_3"
+      name="feature_3"
+      placeholder="Enter Feature_3"
+    />
+  </div>
+  <br />
+  <div>
+    <label>Category_1_x</label>
+    <input
+      type="text"
+      id="category_1_x"
+      name="category_1_x"
+      placeholder="Enter Category_1_x"
+    />
+  </div>
+  <br />
+  <div>
+    <label>Category_3_x</label>
+    <input
+      type="text"
+      id="category_3_x"
+      name="category_3_x"
+      placeholder="Enter Category_3_x"
+    />
+  </div>
+  <br />
+  <div>
+    <label>Month_lag_x</label>
+    <input
+      type="text"
+      id="month_lag_x"
+      name="month_lag_x"
+      placeholder="Enter Month_lag_x"
+    />
+  </div>
+  <br />
+  <div>
+    <label>Category_2_x</label>
+    <input
+      type="text"
+      id="category_2_x"
+      name="category_2_x"
+      placeholder="Enter Category_2_x"
+    />
+  </div>
+  <br />
+  <div>
+    <label>Category_1_y</label>
+    <input
+      type="text"
+      id="category_1_y"
+      name="category_1_y"
+      placeholder="Enter Category_1_y"
+    />
+  </div>
+  <br />
+  <div>
+    <label>Category_3_y</label>
+    <input
+      type="text"
+      id="category_3_y"
+      name="category_3_y"
+      placeholder="Enter Category_3_y"
+    />
+  </div>
+  <br />
+  <div>
+    <label>Month_lag_y</label>
+    <input
+      type="text"
+      id="month_lag_y"
+      name="month_lag_y"
+      placeholder="Enter Month_lag_y"
+    />
+  </div>
+  <br />
+  <div>
+    <label>State_id_y</label>
+    <input
+      type="text"
+      id="state_id_y"
+      name="state_id_y"
+      placeholder="Enter State_id_y"
+    />
+  </div>
+  <br /> 
+  <div>
+    <label>Subsector_id_y</label>
+    <input
+      type="text"
+      id="subsector_id_y"
+      name="subsector_id_y"
+      placeholder="Enter Subsector_id_y"
+    />
+  </div>
+  <br />
+  <div>
+    <label>Merch_month</label>
+    <input
+      type="text"
+      id="merch_month"
+      name="merch_month"
+      placeholder="Enter Merch_month"
+    />
+  </div>
+  <br />
+  <div>
+    <label>Merch_day</label>
+    <input
+      type="text"
+      id="merch_day"
+      name="merch_day"
+      placeholder="Enter Merch_day"
+    />
+  </div>
+  <br />
+  <div>
+    <label>Merch_month_diff</label>
+    <input
+      type="text"
+      id="merch_month_diff"
+      name="merch_month_diff"
+      placeholder="Enter Merch_month_diff"
+    />
+  </div>
+  <br />
+  <div>
+    <label>New_month</label>
+    <input
+      type="text"
+      id="new_month"
+      name="new_month"
+      placeholder="Enter New_month"
+    />
+  </div>
+  <br />
+  <div>
+    <label>New_day</label>
+    <input
+      type="text"
+      id="new_day"
+      name="new_day"
+      placeholder="Enter New_day"
+    />
+  </div>
+  <br />
+  <div>
+    <label>New_weekday</label>
+    <input
+      type="text"
+      id="new_weekday"
+      name="new_weekday"
+      placeholder="Enter New_weekday"
+    />
+  </div>
+  <br />
+    <button type="submit">Get Prediction</button>
+</body>
+</form>
+
+<br>
+<br>
+{{ result }}
